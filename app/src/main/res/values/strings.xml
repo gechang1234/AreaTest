@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">AreaTest</string>
+    <string name="warn">请按如下格式逆时针输入多边形的坐标(中文符号）</string>
+    <string name="sure">确定</string>
+    <string name="x1_y1_x2_y2_x3_y3">x1，y1；x2，y2；x3，y3；</string>
+    <string name="edit_coordinate">请先输入多边形坐标</string>
+    <string name="check_the_format">请检查输入格式</string>
+</resources>

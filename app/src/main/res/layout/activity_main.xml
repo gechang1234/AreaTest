@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:padding="5dp"
+        android:text="@string/warn" />
+
+    <EditText
+        android:id="@+id/my_polygon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/text_bg"
+        android:fadeScrollbars="false"
+        android:gravity="top"
+        android:hint="@string/x1_y1_x2_y2_x3_y3"
+        android:maxLines="7"
+        android:minLines="2"
+        android:paddingTop="10dp"
+        android:scrollbars="vertical"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/confirm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/selector_btn_click_bg"
+        android:text="@string/sure"
+        android:textColor="@color/button_color" />
+
+    <TextView
+        android:id="@+id/my_area"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/text_bg"
+        android:fadeScrollbars="false"
+        android:minLines="1"
+        android:paddingTop="10dp"
+        android:scrollbars="vertical"
+        android:textSize="20dp" />
+
+</LinearLayout>
